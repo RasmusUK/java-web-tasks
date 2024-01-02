@@ -1,0 +1,11 @@
+networks:
+  backend_default:
+    name: backend_default
+
+services:
+  backend:
+    build: .
+    hostname: java_backend
+    ports:
+      - "8000:5000"
+
